@@ -33,7 +33,7 @@ const Profile = ({ name, title, url, email, image, children }) => {
   );
 };
 
-const Team = ({data}) => {
+const Team = ({ data }) => {
   const members = data.allMarkdownRemark.edges;
 
   return (
@@ -55,20 +55,22 @@ const Team = ({data}) => {
         </div>
 
         <div className="flex flex-wrap mt-10 md:mt-16 lg:mt-24">
-          {members.map(({node}) => {
-            const {title, jobtitle, email, linkedinurl, image, path} = node.frontmatter
+          {members.map(({ node }) => {
+            const { title, jobtitle, email, linkedinurl, image, path } =
+              node.frontmatter;
             return (
-            <Profile
-              name={title}
-              title={jobtitle}
-              url={linkedinurl}
-              email={email}
-              image={withPrefix(image)}
-              key={path}
-            >
-              {node.excerpt}
-            </Profile>
-          )})}
+              <Profile
+                name={title}
+                title={jobtitle}
+                url={linkedinurl}
+                email={email}
+                image={withPrefix(image)}
+                key={path}
+              >
+                {node.excerpt}
+              </Profile>
+            );
+          })}
         </div>
       </div>
     </Layout>
@@ -79,7 +81,7 @@ export const query = graphql`
   query TeamMemberQuery {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/content/team/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {

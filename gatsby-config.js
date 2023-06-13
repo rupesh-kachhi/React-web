@@ -33,9 +33,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind Serif`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@windedge`
+    title: `Sumati.io`,
+    description: `IT solutions`,
+    author: `Rupesh`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -48,27 +48,27 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `static/favicon.png`
-      }
+        icon: `static/favicon.png`,
+      },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content`,
-        name: 'services'
-      }
+        name: "services",
+      },
     },
-    'gatsby-transformer-remark',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-postcss',
+    "gatsby-transformer-remark",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
-        purgeOnly: ["src/css/style.css"]
-      }
+        purgeOnly: ["src/css/style.css"],
+      },
     },
-    'gatsby-plugin-offline'
-  ]
+    "gatsby-plugin-offline",
+  ],
 };

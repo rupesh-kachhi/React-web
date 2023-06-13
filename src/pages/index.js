@@ -62,7 +62,7 @@ function Index({ data }) {
             className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center text-sm p-4"
             style={{
               boxShadow:
-                "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)"
+                "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)",
             }}
           >
             <div className="flex-1">
@@ -148,10 +148,10 @@ function Index({ data }) {
 }
 
 export const query = graphql`
-  query {
+  query pageCUsersDellDesktopGatsbyReactWebsrcpagesindexJs2096303412 {
     services: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/content/services/" } }
-      sort: { fields: [frontmatter___date] } 
+      sort: { frontmatter: { date: ASC } }
     ) {
       edges {
         node {

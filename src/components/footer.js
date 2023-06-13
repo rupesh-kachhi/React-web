@@ -10,11 +10,15 @@ const Footer = ({ className, ...props }) => {
   return (
     <>
       <div className={className} {...props}>
-        <div className="flex-initial text-xl font-semibold">Gatsby Serif</div>
+        <div className="flex-initial text-xl font-semibold">Sumati.io</div>
         <div>
           <ul className="flex flex-col md:flex-row text-sm -mx-3 font-medium">
-            <li className="mx-3"><Link to="/">Home</Link></li>
-            <li className="mx-3"><Link to="/contact">Contact</Link></li>
+            <li className="mx-3">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="mx-3">
+              <Link to="/contact">Contact</Link>
+            </li>
             <li className="mx-3">©2023 Sumati.io</li>
           </ul>
         </div>
@@ -38,4 +42,3 @@ const Footer = ({ className, ...props }) => {
 };
 
 export default Footer;
-
