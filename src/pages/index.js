@@ -148,7 +148,7 @@ function Index({ data }) {
 }
 
 export const query = graphql`
-  query pageCUsersDellDesktopGatsbyReactWebsrcpagesindexJs2096303412 {
+  query {
     services: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/content/services/" } }
       sort: { frontmatter: { date: ASC } }

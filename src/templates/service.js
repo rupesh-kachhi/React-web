@@ -31,15 +31,15 @@ export default ({ data }) => {
   );
 };
 
-// export const query = graphql`
-//   query($id: String) {
-//     service: markdownRemark(id: { eq: $id }) {
-//       frontmatter {
-//         path
-//         image
-//         title
-//       }
-//       html
-//     }
-//   }
-// `;
+export const query = graphql`
+  query ($id: String) {
+    service: markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        path
+        image
+        title
+      }
+      html
+    }
+  }
+`;
