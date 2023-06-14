@@ -49,8 +49,9 @@ const Team = ({ data }) => {
             Meet The Team
           </h1>
           <p className="text-base">
-            Our team of qualified accountants and financial consultants can help
-            your business at any stage of it’s growth.
+            We are a team of dedicated IT professionals with expertise in
+            various technologies. Our goal is to help businesses leverage
+            technology to drive growth and efficiency.
           </p>
         </div>
 

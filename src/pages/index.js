@@ -51,9 +51,7 @@ function Index({ data }) {
             Sumati - A Software Solutions Company.
           </h1>
           <p className="text-base">
-            Multiple content types using Markdown and JSON sources. Responsive
-            design and SCSS. This is a beautiful and artfully designed starting
-            theme.
+            We provide innovative IT solutions for your business.
           </p>
         </div>
 
@@ -118,8 +116,11 @@ function Index({ data }) {
                 <div className="w-16 h-16 mb-4">
                   <img alt="branding" src={branding} />
                 </div>
-                <p className="text-2xl w-full">Free Consultation</p>
-                <p>New clients recieve an obligation free consultation.</p>
+                <p className="text-2xl w-full">Continuous Innovation</p>
+                <p>
+                  Staying ahead with the latest technologies and innovative
+                  solutions.
+                </p>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
@@ -127,8 +128,11 @@ function Index({ data }) {
                 <div className="w-16 h-16 mb-4">
                   <img alt="processing" src={processing} />
                 </div>
-                <p className="text-2xl w-full">Certified Accountants</p>
-                <p>All members of our team are certified accountants.</p>
+                <p className="text-2xl w-full">Scalable Solutions</p>
+                <p>
+                  Flexible and scalable IT solutions to support your business
+                  growth.
+                </p>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
@@ -136,8 +140,46 @@ function Index({ data }) {
                 <div className="w-16 h-16 mb-4">
                   <img alt="modeling" src={modeling} />
                 </div>
-                <p className="text-2xl w-full">Tax Compliance</p>
-                <p>We stay up to date on the latest changes to the tax code.</p>
+                <p className="text-2xl w-full">Agile Development</p>
+                <p>
+                  Adaptive development approach for on-time and on-budget
+                  project delivery.
+                </p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
+              <div className="h-full m-2 p-4 border-2 border-gray-300 flex flex-col items-center text-center">
+                <div className="w-16 h-16 mb-4">
+                  <img alt="modeling" src={modeling} />
+                </div>
+                <p className="text-2xl w-full">Robust Security</p>
+                <p>
+                  Advanced security measures to protect your systems and data.
+                </p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
+              <div className="h-full m-2 p-4 border-2 border-gray-300 flex flex-col items-center text-center">
+                <div className="w-16 h-16 mb-4">
+                  <img alt="modeling" src={modeling} />
+                </div>
+                <p className="text-2xl w-full">Ongoing Support</p>
+                <p>
+                  Dedicated support and maintenance services for optimal system
+                  performance.
+                </p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
+              <div className="h-full m-2 p-4 border-2 border-gray-300 flex flex-col items-center text-center">
+                <div className="w-16 h-16 mb-4">
+                  <img alt="modeling" src={modeling} />
+                </div>
+                <p className="text-2xl w-full">Collaborative Approach</p>
+                <p>
+                  Open communication and transparent processes for effective
+                  collaboration.
+                </p>
               </div>
             </div>
           </div>

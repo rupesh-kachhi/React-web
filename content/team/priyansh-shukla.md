@@ -1,12 +1,12 @@
 ---
-path: '/team/sage-kirk'
-title: 'Sage Kirk'
+path: "/team/priyansh-shukla"
+title: "Priyansh Shukla"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: '/team/sage-kirk-485982-unsplash.jpg'
-jobtitle: 'Accountant'
-email: 'sage@test.com'
-linkedinurl: 'www.linkedin.com/sagekirk21'
+image: "/team/priyansh-shukla.jfif"
+jobtitle: "HR"
+email: "priyansh.shukla@sumati.io"
+linkedinurl: "www.linkedin.com/in/priyansh-shukla1997"
 weight: 2
 ---
 
