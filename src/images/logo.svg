@@ -52,13 +52,13 @@
     </style>
 
     <text class="animated-text animation-delay-1" x="130" y="135">S</text>
-    <text class="animated-text animation-delay-2" x="175" y="135">u</text>
-    <text class="animated-text animation-delay-3" x="215" y="135">m</text>
-    <text class="animated-text animation-delay-4" x="280" y="135">a</text>
-    <text class="animated-text animation-delay-5" x="315" y="135">t</text>
-    <text class="animated-text animation-delay-6" x="337" y="135">i</text>
-    <text class="animated-text animation-delay-7" x="355" y="135">.</text>
-    <text class="animated-text animation-delay-8" x="370" y="135">i</text>
-    <text class="animated-text animation-delay-9" x="390" y="135">o</text>
+    <text class="animated-text animation-delay-2" x="177" y="135">u</text>
+    <text class="animated-text animation-delay-3" x="219" y="135">m</text>
+    <text class="animated-text animation-delay-4" x="286" y="135">a</text>
+    <text class="animated-text animation-delay-5" x="323" y="135">t</text>
+    <text class="animated-text animation-delay-6" x="347" y="135">i</text>
+    <text class="animated-text animation-delay-7" x="367" y="135">.</text>
+    <text class="animated-text animation-delay-8" x="384" y="135">i</text>
+    <text class="animated-text animation-delay-9" x="400" y="135">o</text>
     <!-- Add more text elements for each alphabet with appropriate x and y coordinates -->
 </svg>
