@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby";
+import styled from "styled-components";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-
+import ContactForm from "../components/contactform";
 const Contact = () => {
   return (
     <Layout>
@@ -17,7 +18,7 @@ const Contact = () => {
           className="w-full sm:w-3/4 lg:w-1/2 mt-10 px-6 py-4"
           style={{
             boxShadow:
-              "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)"
+              "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)",
           }}
         >
           <p>
@@ -27,6 +28,13 @@ const Contact = () => {
             <strong>Email: </strong>contact@sumati.io
           </p>
         </div>
+        <div className="w-full">
+          <h3 className="mt-10 text-2xl">Contact Form</h3>
+          <div className="w-full sm:w-3/4 lg:w-1/2 mt-6">
+            <ContactForm />
+          </div>
+        </div>
+
         <div className="w-full">
           <h3 className="mt-10 text-2xl">Business Hours</h3>
           <table className="w-full md:w-3/4 text-left w-full border-collapse">
@@ -64,14 +72,14 @@ const Contact = () => {
               <tr className="border-t h-10">
                 <td className="font-semibold">Saturday</td>
                 <td>Closed</td>
-                <td >-</td>
-                <td >Closed</td>
+                <td>-</td>
+                <td>Closed</td>
               </tr>
               <tr className="border-t h-10">
                 <td className="font-semibold">Sunday</td>
                 <td>Closed</td>
-                <td >-</td>
-                <td >Closed</td>
+                <td>-</td>
+                <td>Closed</td>
               </tr>
             </tbody>
           </table>
